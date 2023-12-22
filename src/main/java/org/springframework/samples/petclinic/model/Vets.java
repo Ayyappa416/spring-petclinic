@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.samples.petclinic.model;
+/*package org.springframework.samples.petclinic.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlRootElement;*/
  * @author Arjen Poutsma
  */
 @XmlRootElement
-public class Vets {
+/*public class Vets {
 
     private List<Vet> vets;
 
@@ -40,3 +40,4 @@ public class Vets {
     }
 
 }
+ */
