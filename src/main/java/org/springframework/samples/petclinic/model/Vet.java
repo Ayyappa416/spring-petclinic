@@ -60,7 +60,7 @@ public class Vet extends Person {
         this.specialties = specialties;
     }
 
-    @XmlElement
+   /* @XmlElement
     public List<Specialty> getSpecialties() {
         List<Specialty> sortedSpecs = new ArrayList<>(getSpecialtiesInternal());
         PropertyComparator.sort(sortedSpecs, new MutableSortDefinition("name", true, true));
@@ -73,6 +73,6 @@ public class Vet extends Person {
 
     public void addSpecialty(Specialty specialty) {
         getSpecialtiesInternal().add(specialty);
-    }
+    }*/
 
 }
